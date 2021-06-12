@@ -6,7 +6,7 @@
     {"id":4, "name":"ddddd", "authors":[2,5]},
     {"id":5, "name":"aaa22", "authors":[1]},
     {"id":6, "name":"twinkle star", "authors":[5]},
-    {"id":7, "name":"Good to know", "authors":[6]},
+    {"id":7, "name":"Good to know", "authors":[6]}
   ],
   "authors": [
     {"id":1, "name":"jon", "books":[1,5]},
@@ -14,6 +14,6 @@
     {"id":3, "name":"tom", "books":[3]},
     {"id":4, "name":"ken", "books":[3]},
     {"id":5, "name":"lisa", "books":[4,6]},
-    {"id":6, "name":"mike", "books":[7]},
+    {"id":6, "name":"mike", "books":[7]}
   ]
 }
