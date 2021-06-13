@@ -16,7 +16,7 @@
     {"id":5, "name":"Martin Fowler", "books":[4,6]},
     {"id":6, "name":"Eric Evans", "books":[7]}
   ],
-  "publisher": [
+  "publishers": [
     {"id":1, "name":"Addison Wesley"},
     {"id":2, "name":"Prentice Hall"},
     {"id":3, "name":"Pearson Publishing"},
