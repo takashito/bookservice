@@ -17,9 +17,9 @@
     {"id":6, "name":"Eric Evans", "books":[7]}
   ],
   "publishers": [
-    {"id":1, "name":"Addison Wesley"},
-    {"id":2, "name":"Prentice Hall"},
-    {"id":3, "name":"Pearson Publishing"},
-    {"id":4, "name":"Good Publisher"}
+    {"id":1, "name":"Addison Wesley", "books":[1,2,3,4]},
+    {"id":2, "name":"Prentice Hall", "books":[5]},
+    {"id":3, "name":"Pearson Publishing", "books":[6]},
+    {"id":4, "name":"Good Publisher", "books":[7]}
   ]
 }
