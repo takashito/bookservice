@@ -1,19 +1,25 @@
 {
   "books" : [
-    {"id":1, "name":"aaaaa", "authors":[1]},
-    {"id":2, "name":"bbbbb", "authors":[2]},
-    {"id":3, "name":"ccccc", "authors":[3,4]},
-    {"id":4, "name":"ddddd", "authors":[2,5]},
-    {"id":5, "name":"aaa22", "authors":[1]},
-    {"id":6, "name":"twinkle star", "authors":[5]},
-    {"id":7, "name":"Good to know", "authors":[6]}
+    {"id":1, "name":"Design Patterns - Elements of Reusable Object-Oriented Software", "authors":[1], "publisher":1},
+    {"id":2, "name":"Refactoring - Improving the Design of Existing Code", "authors":[2], "publisher":1},
+    {"id":3, "name":"Patterns of Enterprise Application Architecture", "authors":[3,4], "publisher":1},
+    {"id":4, "name":"Domain-Driven Design", "authors":[2,5], "publisher":1},
+    {"id":5, "name":"Clean Code - A Handbook of Agile Software Craftsmanship", "authors":[1], "publisher":2},
+    {"id":6, "name":"Agile Software Development, Principles, Patterns, and Practices", "authors":[5], "publisher":3},
+    {"id":7, "name":"Good to know", "authors":[6], "publisher":4}
   ],
   "authors": [
-    {"id":1, "name":"jon", "books":[1,5]},
-    {"id":2, "name":"bob", "books":[2,4]},
-    {"id":3, "name":"tom", "books":[3]},
-    {"id":4, "name":"ken", "books":[3]},
-    {"id":5, "name":"lisa", "books":[4,6]},
-    {"id":6, "name":"mike", "books":[7]}
+    {"id":1, "name":"Erich Gamma", "books":[1,5]},
+    {"id":2, "name":"Richard Helm", "books":[2,4]},
+    {"id":3, "name":"Ralph Johnson", "books":[3]},
+    {"id":4, "name":"John Vlissides", "books":[3]},
+    {"id":5, "name":"Martin Fowler", "books":[4,6]},
+    {"id":6, "name":"Eric Evans", "books":[7]}
+  ],
+  "publisher": [
+    {"id":1, "name":"Addison Wesley"},
+    {"id":2, "name":"Prentice Hall"},
+    {"id":3, "name":"Pearson Publishing"},
+    {"id":4, "name":"Good Publisher"}
   ]
 }
