@@ -1,20 +1,31 @@
 # mockapi
 
-## All Data
+### All Data
 https://ewdemo.test.edgekey.net/mockapi/db
 
-## Sample API Calls
+### EndPoints
+Books : https://ewdemo.test.edgekey.net/mockapi/books
+Authors : https://ewdemo.test.edgekey.net/mockapi/authors
+Publishers : https://ewdemo.test.edgekey.net/mockapi/publishers
+
+### Sample API Calls
 ```
-https://ewdemo.test.edgekey.net/mockapi/books
-- https://ewdemo.test.edgekey.net/mockapi/books/1
-- https://ewdemo.test.edgekey.net/mockapi/books?id=2&id=3
+Search by ID
+https://ewdemo.test.edgekey.net/mockapi/books/1
 
-https://ewdemo.test.edgekey.net/mockapi/authors
-- https://ewdemo.test.edgekey.net/mockapi/authors?q=Eric
+Search multiple IDs
+https://ewdemo.test.edgekey.net/mockapi/books?id=2&id=3
 
-https://ewdemo.test.edgekey.net/mockapi/publishers
-- https://ewdemo.test.edgekey.net/mockapi/publishers?_sort=name
+Full text seach
+https://ewdemo.test.edgekey.net/mockapi/authors?q=Eric
+
+Sort
+https://ewdemo.test.edgekey.net/mockapi/publishers?_sort=name
 ```
-## More Available operations : [https://github.com/typicode/json-server#operators](https://github.com/typicode/json-server#operators)
 
-## Powered by : [https://my-json-server.typicode.com/](https://my-json-server.typicode.com/)
+### More Available operations
+[https://github.com/typicode/json-server#operators](https://github.com/typicode/json-server#operators)
+
+
+### Powered by
+[https://my-json-server.typicode.com/](https://my-json-server.typicode.com/)
