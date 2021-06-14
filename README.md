@@ -4,9 +4,9 @@
 https://ewdemo.test.edgekey.net/mockapi/db
 
 ### EndPoints
-Books : https://ewdemo.test.edgekey.net/mockapi/books
-Authors : https://ewdemo.test.edgekey.net/mockapi/authors
-Publishers : https://ewdemo.test.edgekey.net/mockapi/publishers
+Books : https://ewdemo.test.edgekey.net/mockapi/books <br>
+Authors : https://ewdemo.test.edgekey.net/mockapi/authors <br>
+Publishers : https://ewdemo.test.edgekey.net/mockapi/publishers <br>
 
 ### Sample API Calls
 ```
